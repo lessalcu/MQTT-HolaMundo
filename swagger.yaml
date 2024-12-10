@@ -1,0 +1,24 @@
+swagger: "2.0"
+info:
+  title: MQTT Hello World
+  description: A Flask application to demonstrate MQTT and Swagger.
+  version: "1.0.0"
+host: "localhost:5000"
+schemes:
+  - http
+paths:
+  /:
+    get:
+      summary: Hello World endpoint
+      description: Publishes a Hello World message to MQTT and returns it via REST.
+      tags:
+        - HelloWorld
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
+                example: Hello, MQTT World!
