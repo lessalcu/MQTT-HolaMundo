@@ -66,9 +66,6 @@ The application connects to HiveMQ's public MQTT broker at `broker.hivemq.com`, 
 ```bash
 Received message from test/topic: Hello, MQTT World!
 ```
-
-### Download the image from Docker Hub
-
 ### Download the image from Docker Hub
 
 1. To download the image from Docker Hub:
